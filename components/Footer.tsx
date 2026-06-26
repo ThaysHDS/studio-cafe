@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-4 md:px-12 relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 lg:gap-24">
-        <div className="space-y-10">
+        <div className="space-y-10 text-center md:text-left">
           <h4 className="footer-title text-white tracking-tight">
             Institucional
           </h4>
