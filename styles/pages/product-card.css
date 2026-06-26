@@ -37,14 +37,14 @@
   font-family: 'Playfair Display', serif;
   font-weight: 300;
   font-size: 6rem;
-  color: rgba(255, 255, 255, 0.95);
+  color: rgba(255,255,255,0.95);
 }
 
 .product-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2rem, 5vw, 4rem); 
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
@@ -66,7 +66,7 @@
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(255,255,255,0.4);
   line-height: 1.5;
 }
 
@@ -80,7 +80,7 @@
 
 .btn {
   padding: 1rem 3rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255,255,255,0.2);
   border-radius: 9999px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
@@ -92,7 +92,7 @@
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255,255,255,0.1);
 }
 
 .btn-icon {
@@ -122,9 +122,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  box-shadow: 0 45px 90px -20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 45px 90px -20px rgba(0,0,0,0.6);
   transition: all 0.7s;
-  height: 100%;
+  height: 100%;  
 }
 
 .product-card:hover {
@@ -174,26 +174,26 @@
   line-height: 100%;
   letter-spacing: 0%;
   color: #000;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; 
 }
 
 .coffee-description {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 12px;
-  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;  
+  color: rgba(0,0,0,0.6);
   margin-bottom: 1rem;
   max-width: 220px;
   line-height: 1.8;
 }
 
 .coffee-price {
-  max-width: 220px;
+  width: 220px;
   margin: 0 auto;
   height: 39px;
   padding: 6px;
-  border-radius: 46px;
+  border-radius: 46px; 
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
@@ -205,9 +205,10 @@
   align-items: center;
   justify-content: center;
   gap: 19px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.3);
   cursor: pointer;
   transition: all 0.3s;
+  max-width: 220px;
 }
 
 .coffee-price:hover {
@@ -231,11 +232,9 @@
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .header-buttons {
     flex-direction: row;
   }
-
   .product-header .title {
     font-size: 8rem;
   }
@@ -245,7 +244,6 @@
   .product-grid {
     grid-template-columns: repeat(4, 1fr);
   }
-
   .watermark-text {
     font-size: 50rem;
   }
@@ -282,7 +280,7 @@
 
   .product-grid {
     grid-template-columns: 1fr;
-    gap: 4rem;
+    gap: 4rem; 
     margin-top: 3rem;
   }
 
