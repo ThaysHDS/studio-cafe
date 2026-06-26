@@ -86,3 +86,42 @@
 .contact-section-cta:hover .contact-section-cta-icon {
   transform: rotate(45deg);
 }
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .contact-section-container {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    border-radius: 32px;
+    padding: 16px;
+    gap: 16px;
+  }
+
+  .contact-section-map {
+    width: 100%;
+    height: 200px;
+    min-height: unset;
+    border-radius: 20px;
+    flex: none;
+  }
+
+  .contact-section-content {
+    flex: none;
+    gap: 20px;
+  }
+
+  .contact-section-info {
+    gap: 16px;
+  }
+
+  .contact-section-cta-wrapper {
+    margin-top: 0;
+  }
+}
