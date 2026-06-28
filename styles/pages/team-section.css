@@ -149,8 +149,8 @@
 
 .team-socials {
   display: flex;
-  justify-content: center;   /* centraliza horizontalmente */
-  align-items: center;  
+  justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   margin-bottom: 1.5rem;
 }
@@ -176,11 +176,10 @@
   line-height: 1.5;
   letter-spacing: 0;
   margin-top: 16px auto 0 auto;
-  word-wrap: break-word; 
+  word-wrap: break-word;
   padding: 10px;
 }
 
-/* Base do gradiente */
 .team-gradient {
   position: absolute;
   left: 0;
@@ -190,7 +189,6 @@
   pointer-events: none;
 }
 
-/* Gradiente superior */
 .team-gradient.top {
   top: 0;
   background: linear-gradient(
@@ -200,7 +198,6 @@
   );
 }
 
-/* Gradiente inferior */
 .team-gradient.bottom {
   bottom: 0;
   background: linear-gradient(
@@ -213,7 +210,7 @@
 .team-content h3 {
   font-family: 'Gotham', sans-serif;
   font-weight: 400;
-  font-style: normal; /* Book */
+  font-style: normal;
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0;
@@ -223,7 +220,7 @@
 .team-role {
   font-family: 'Gotham', sans-serif;
   font-weight: 400;
-  font-style: normal; /* Book */
+  font-style: normal;
   font-size: 15px;
   line-height: 100%;
   letter-spacing: 0;
@@ -231,4 +228,45 @@
   margin-top: 8px;
 }
 
+/* ── Mobile (max-width: 767px) ── */
+@media (max-width: 767px) {
+  .team-section {
+    padding: 4rem 0;
+    min-height: auto;
+  }
 
+  .team-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    align-items: center;
+  }
+
+  .team-card {
+    width: 290px;
+    height: auto;
+    padding: 28px 20px 36px;
+    border-radius: 313px;
+  }
+
+  .team-avatar {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1.5rem;
+  }
+
+  .team-content h3 {
+    font-size: 26px;
+  }
+
+  .team-role {
+    font-size: 9px;
+    margin-bottom: 1rem;
+    white-space: nowrap;
+  }
+
+  .team-bio {
+    font-size: 13px;
+    padding: 6px 14px;
+    line-height: 1.6;
+  }
+}

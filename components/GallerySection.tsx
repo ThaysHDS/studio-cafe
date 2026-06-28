@@ -29,11 +29,9 @@ export const GallerySection: React.FC<GallerySectionProps> = ({
         </div>
       )}
 
-      {/* Desktop: altura fixa original / Mobile: altura automática */}
       <div className="mx-auto relative z-10 max-w-[1144px] h-auto md:h-[760px] px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
 
-          {/* Imagem grande */}
           <div className="rounded-[24px] md:rounded-[40px] overflow-hidden group h-[220px] md:h-[700px] relative shadow-2xl border border-white/5">
             <img 
               src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1000&auto=format&fit=crop" 
@@ -44,7 +42,6 @@ export const GallerySection: React.FC<GallerySectionProps> = ({
           </div>
 
           <div className="flex flex-col gap-6 md:gap-8">
-            {/* Imagem superior direita */}
             <div className="rounded-[24px] md:rounded-[40px] overflow-hidden group h-[220px] md:h-[334px] relative shadow-xl border border-white/5">
               <img 
                 src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=1000&auto=format&fit=crop" 
@@ -54,7 +51,6 @@ export const GallerySection: React.FC<GallerySectionProps> = ({
               <div className="absolute inset-0 bg-black/5"></div>
             </div>
 
-            {/* Imagem com botão "Conheça nosso espaço" */}
             <div className="rounded-[24px] md:rounded-[40px] overflow-hidden group h-[220px] md:h-[334px] relative shadow-xl border border-white/5">
               <img 
                 src="https://images.unsplash.com/photo-1525648199074-cee30ba79a4a?q=80&w=1000&auto=format&fit=crop" 
