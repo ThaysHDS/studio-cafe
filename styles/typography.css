@@ -9,7 +9,6 @@
   user-select: none;
   pointer-events: none;
   opacity: 0.03;
-  
 }
 
 .menu-text {
@@ -190,4 +189,51 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 100%;
+}
+
+/* ── Mobile (max-width: 767px) ── */
+@media (max-width: 767px) {
+  .watermark-text {
+    font-size: 120px;
+  }
+
+  .title {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .hero-title {
+    font-size: 40px;
+  }
+
+  .product-title {
+    font-size: 52px;
+  }
+
+  .product-name {
+    font-size: 18px;
+  }
+
+  .product-description {
+    font-size: 11px;
+    line-height: 130%;
+  }
+
+  .section-subtitle {
+    font-size: 28px;
+  }
+
+  .zipcode,
+  .address {
+    font-size: 22px;
+  }
+
+  .footer-highlight {
+    font-size: 17px;
+  }
 }

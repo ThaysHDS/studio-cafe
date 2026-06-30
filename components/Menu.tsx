@@ -173,7 +173,7 @@ const ProductCard: React.FC<{ product: any }> = ({ product }) => (
 );
 
 const Divider: React.FC = () => (
-  <div className="w-full border-t border-white/5 mt-20"></div>
+  <div className="w-full border-t border-white/5 mt-8 md:mt-16"></div>
 );
 
 export const Menu: React.FC<MenuProps> = ({ onExplore }) => {
@@ -220,7 +220,7 @@ export const Menu: React.FC<MenuProps> = ({ onExplore }) => {
           <SectionHeader
             src="./image/cardapio/pao.png"
             title="Pães & cookies"
-            className="pt-20"
+            className="pt-8 md:pt-16"
           />
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-x-10 md:gap-y-16">
@@ -233,7 +233,7 @@ export const Menu: React.FC<MenuProps> = ({ onExplore }) => {
           <SectionHeader
             src="./image/cardapio/croissant.png"
             title="Porções"
-            className="pt-20"
+            className="pt-8 md:pt-16"
           />
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-x-10 md:gap-y-16">
@@ -246,10 +246,10 @@ export const Menu: React.FC<MenuProps> = ({ onExplore }) => {
           <SectionHeader
             src="./image/cardapio/cafe-grao.png"
             title="Nossos Produtos"
-            className="pt-20"
+            className="pt-8 md:pt-16"
           />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-16 pb-20">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-x-10 md:gap-y-16 pb-20">
             {menuData.nossosProdutos.map((p, i) => (
               <ProductCard key={i} product={p} />
             ))}

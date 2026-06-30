@@ -99,7 +99,6 @@
   transform: rotate(45deg);
 }
 
-/* ── Mobile (max-width: 767px) ── */
 @media (max-width: 767px) {
   .contact-page {
     min-height: auto;

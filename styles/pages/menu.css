@@ -4,7 +4,7 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 45px;
+  gap: 32px;
   opacity: 1;
 }
 
@@ -82,32 +82,42 @@
   display: block;
 }
 
-
-
 /* ── Mobile (max-width: 767px) ── */
 @media (max-width: 767px) {
   .menu-container-custom {
     width: 100%;
     min-height: auto;
     padding: 0 1.25rem;
-    gap: 28px;
+    gap: 20px;
   }
 
   .menu-hero-text {
-    bottom: 2rem;
+    bottom: 6rem;
     right: 1.25rem;
     left: 1.25rem;
     max-width: 100%;
     text-align: left;
   }
 
+  /* title dentro do hero usa text-align: left no mobile */
+  .menu-hero-text .title {
+    text-align: left;
+  }
+
   .menu-section-icon img {
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
   }
 
   .menu-section-header {
     gap: 0.75rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .product-price-badge {
+    bottom: 0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 11px;
   }
 }
