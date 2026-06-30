@@ -13,7 +13,7 @@ export const ContactPage: React.FC = () => {
         <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-coffee-950 to-transparent" />
       </div>
 
-      <div className="container mx-auto relative z-10 pt-32 pb-20 flex justify-center">
+      <div className="container mx-auto relative z-10 px-4 pt-32 pb-12 md:px-0 md:pt-52 md:pb-20 flex justify-center">
         <div className="max-w-6xl mx-auto">
           <div className="contact-card">
 
@@ -70,7 +70,7 @@ export const ContactPage: React.FC = () => {
                 </div>
               </div>
 
-              <div className="pt-4 flex justify-end">
+              <div className="pt-4 flex justify-center md:justify-end">
                 <button className="contact-cta">
                   <span className="cta-text">Reserve um horário para você!</span>
                   <div className="contact-cta-icon">
