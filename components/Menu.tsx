@@ -208,9 +208,9 @@ export const Menu: React.FC<MenuProps> = ({ onExplore }) => {
           <span className="coffee-bg opacity-[0.03] rotate-[-8deg]">Menu</span>
         </div>
 
-        <div className="menu-container menu-container-custom pt-48">
+        <div className="menu-container menu-container-custom pt-12 md:pt-48">
           <SectionHeader src="./image/cardapio/xicara-cafe.png" title="Café" />
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-16">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-x-10 md:gap-y-16">
             {menuData.cafe.map((p, i) => (
               <ProductCard key={i} product={p} />
             ))}
@@ -223,7 +223,7 @@ export const Menu: React.FC<MenuProps> = ({ onExplore }) => {
             className="pt-20"
           />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-16">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-x-10 md:gap-y-16">
             {menuData.paes.map((p, i) => (
               <ProductCard key={i} product={p} />
             ))}
@@ -236,7 +236,7 @@ export const Menu: React.FC<MenuProps> = ({ onExplore }) => {
             className="pt-20"
           />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-16">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 md:gap-x-10 md:gap-y-16">
             {menuData.porcoes.map((p, i) => (
               <ProductCard key={i} product={p} />
             ))}
