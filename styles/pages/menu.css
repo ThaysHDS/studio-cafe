@@ -82,7 +82,6 @@
   display: block;
 }
 
-/* ── Mobile (max-width: 767px) ── */
 @media (max-width: 767px) {
   .menu-container-custom {
     width: 100%;
@@ -99,7 +98,6 @@
     text-align: left;
   }
 
-  /* title dentro do hero usa text-align: left no mobile */
   .menu-hero-text .title {
     text-align: left;
   }

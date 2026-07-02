@@ -127,8 +127,6 @@
   text-align: center;
 }
 
-/* ===== CONTACT PAGE TYPOGRAPHY ===== */
-
 .zipcode {
   font-family: Gotham;
   font-weight: 700;
@@ -191,7 +189,6 @@
   line-height: 100%;
 }
 
-/* ── Mobile (max-width: 767px) ── */
 @media (max-width: 767px) {
   .watermark-text {
     font-size: 120px;

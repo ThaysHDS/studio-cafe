@@ -228,7 +228,6 @@
   margin-top: 8px;
 }
 
-/* ── Mobile (max-width: 767px) ── */
 @media (max-width: 767px) {
   .team-section {
     padding: 4rem 0;
