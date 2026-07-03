@@ -36,26 +36,25 @@ export const TeamSection: React.FC = () => {
         <div className="team-overlay absolute inset-0 bg-black/60" />
       </div>
 
-      <div className="team-container max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="team-container">
         {members.map((member, idx) => (
-          <div key={idx} className="team-card group relative flex flex-col items-center text-center p-6 rounded-2xl bg-coffee-900/80 backdrop-blur-md hover:scale-105 transition-transform duration-300">
+          <div key={idx} className="team-card relative">
             <div className="team-card-line top" />
 
-            <div className="team-avatar w-24 h-24 sm:w-28 sm:h-28 mb-4">
+            <div className="team-avatar">
               <img
                 src={member.image}
                 alt={member.name}
-                className="w-full h-full object-cover rounded-full"
               />
             </div>
 
             <div className="team-content">
-              <h3 className="text-lg sm:text-xl font-bold">{member.name}</h3>
-              <p className="team-role text-sm sm:text-base opacity-80">
+              <h3>{member.name}</h3>
+              <p className="team-role">
                 {member.role}
               </p>
 
-              <div className="team-socials flex gap-4 justify-center mt-3">
+              <div className="team-socials">
                 {member.socials.fb && (
                   <a
                     href={member.socials.fb}
@@ -87,7 +86,7 @@ export const TeamSection: React.FC = () => {
                 )}
               </div>
 
-              <p className="team-bio text-sm sm:text-base mt-3 leading-relaxed">
+              <p className="team-bio">
                 {member.bio}
               </p>
             </div>
