@@ -29,13 +29,13 @@ export const OurSpace: React.FC = () => {
         </div>
       </section>
 
-      <section className="relative py-24 pb-48">
+      <section className="relative py-12 pb-24 md:py-24 md:pb-48">
         <div className="watermark-text z-0 pointer-events-none select-none">
           Espaço
         </div>
 
-        <div className="container mx-auto px-4 md:px-12 relative z-10 pt-40">
-          <div className="text-center mb-32">
+        <div className="container mx-auto px-4 md:px-12 relative z-10 pt-0 md:pt-40">
+          <div className="text-center mb-4 md:mb-32">
             <h2 className="title text-white mb-10">Conheça nosso espaço</h2>
           </div>
 
