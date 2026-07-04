@@ -39,7 +39,29 @@ export const OurSpace: React.FC = () => {
             <h2 className="title text-white mb-10">Conheça nosso espaço</h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+          <div className="grid grid-cols-2 gap-3 md:hidden">
+            {[
+              { src: '/image/espaco/espaco-casal.png', alt: 'Espaço Studio Café 1' },
+              { src: '/image/espaco/espaco-vitrine.png', alt: 'Espaço Studio Café 2' },
+              { src: '/image/espaco/espaco-paes.png', alt: 'Espaço Studio Café 3' },
+              { src: '/image/espaco/espaco-total.png', alt: 'Espaço Studio Café 4' },
+              { src: '/image/espaco/espaco-balcao.png', alt: 'Espaço Studio Café 5' },
+              { src: '/image/espaco/espaco-mesas.png', alt: 'Espaço Studio Café 6' },
+            ].map((img, idx) => (
+              <div
+                key={idx}
+                className="rounded-[20px] overflow-hidden shadow-xl border border-white/5 aspect-[4/5]"
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
+
+          <div className="hidden md:grid md:grid-cols-2 gap-8 items-start">
             <div className="flex flex-col gap-8">
               <div className="rounded-[40px] overflow-hidden shadow-xl border border-white/5 h-[350px] group">
                 <img
@@ -66,7 +88,7 @@ export const OurSpace: React.FC = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 items-start">
+          <div className="hidden md:grid md:grid-cols-2 gap-8 mt-8 items-start">
             <div className="rounded-[40px] overflow-hidden shadow-2xl border border-white/5 h-[700px] group">
               <img
                 src="/image/espaco/espaco-total.png"
