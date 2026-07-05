@@ -51,11 +51,11 @@ export const Footer: React.FC = () => {
 
         <div className="hidden lg:block"></div>
 
-        <div className="lg:col-span-2 space-y-6 md:space-y-10 text-center md:text-right">
+        <div className="lg:col-span-2 space-y-6 md:space-y-10 text-right">
           <h4 className="footer-highlight text-white tracking-tight">
             Resumo sobre nós
           </h4>
-          <p className="footer-text text-white/80 leading-relaxed max-w-2xl mx-auto md:mx-0 md:ml-auto whitespace-pre-line">
+          <p className="footer-text text-white/80 leading-relaxed max-w-2xl ml-auto whitespace-pre-line">
             {`No Studio Café, acreditamos que cada detalhe transforma a experiência.
           Criamos um espaço acolhedor para quem busca uma pausa gostosa, um bom
           café ou um ambiente inspirador para trabalhar e se conectar. Nossos produtos
@@ -64,13 +64,13 @@ export const Footer: React.FC = () => {
           </p>
 
           <div className="space-y-4 md:space-y-6 pt-2 md:pt-4">
-            <div className="flex items-start gap-5 justify-center md:justify-end text-white/60">
+            <div className="flex items-start gap-5 justify-end text-white/60">
               <MapPin className="w-6 h-6 text-white shrink-0 -mt-1" />
-              <p className="footer-text text-white font-bold text-left md:text-right">
+              <p className="footer-text text-white font-bold">
                 04303-150 - Rua Agha Rizã São Judas - São Paulo/SP
               </p>
             </div>
-            <div className="flex items-center gap-5 justify-center md:justify-end text-white/60">
+            <div className="flex items-center gap-5 justify-end text-white/60">
               <Phone className="w-6 h-6 text-white shrink-0" />
               <p className="footer-text text-white font-bold">
                 (11) 99384-9475
