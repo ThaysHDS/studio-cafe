@@ -9,6 +9,7 @@
   user-select: none;
   pointer-events: none;
   opacity: 0.03;
+  color: rgba(29, 1, 1, 1);
 }
 
 .menu-text {
